@@ -1,0 +1,70 @@
+.movCard {
+    width: 25rem;
+    margin-bottom: 20px;
+    transition: .25s ease;
+
+    -webkit-box-shadow: 0px 0px 10px 0px lightgrey;
+    -moz-box-shadow: 0px 0px 10px 0px lightgrey;
+    box-shadow: 0px 0px 10px 0px lightgrey;
+}
+.movCard:hover {
+    transform: translate3d(5px, -5px, 5px);
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+    -moz-box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+    box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+}
+
+.movTitle {
+    padding: 4px 12px;
+    color: white;
+    font-size: 14px;
+    background: rgb(26, 26, 26);
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 10px;
+}
+
+.movSynopsis {
+    color: black;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+
+
+/* RESPONSIVES */
+@media screen and (max-width: 1600px) {
+    .movCard {
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .movCard {
+        width: 23rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .movCard {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .titleContainer {
+        margin-top: -24px;
+    }
+
+    .movTitle {
+        text-align: center;
+        font-size: 120%;
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .movSynopsis {
+        padding: 12px;
+        font-size: 105%;
+    }
+}

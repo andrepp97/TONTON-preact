@@ -1,0 +1,29 @@
+.artistBox {
+    width: 10rem;
+    margin: 10px;
+    padding: 12px 8px;
+
+    color: #2b2b2b;
+    text-align: center;
+
+    border-radius: 1vh;
+    background-color: whitesmoke;
+    transition: .25s ease-in-out;
+
+    -webkit-box-shadow: 0px 0px 8px 0px grey;
+    -moz-box-shadow: 0px 0px 8px 0px grey;
+    box-shadow: 0px 0px 8px 0px grey;
+}
+
+.artistBox:hover {
+    background: #561fcc;
+    text-decoration: none;
+    transform: translate3d(4px, -4px, 4px);
+
+    -webkit-box-shadow: 0px 0px 15px 0px #561fcc;
+    -moz-box-shadow: 0px 0px 15px 0px #6030c7;
+    box-shadow: 0px 0px 15px 0px #40169b;
+}
+.artistBox:hover h6 {
+    color: white;
+}

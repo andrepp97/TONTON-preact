@@ -1,0 +1,5 @@
+.pageContainer {
+    min-height: 100%;
+    padding: 90px 50px;
+    background-color: rgba(216, 215, 215, 0.75);
+}

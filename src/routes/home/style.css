@@ -1,0 +1,13 @@
+.home {
+    background-color: #f2f2f2;
+    min-height: 100%;
+    width: 100%;
+    padding: 90px 50px;
+}
+
+.pageButton {
+    cursor: pointer;
+}
+.pageButton:hover {
+    font-weight: bold;
+}
